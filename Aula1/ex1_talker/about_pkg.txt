@@ -1,0 +1,20 @@
+Aula 1 
+
+
+colcon build
+
+lembre de dar dar o souce no setup.bash
+	Do workspace faça: source install/setup.bash
+	
+Lançar nó talker com em terminal 1
+	ros2 run ex1_talker talker
+
+Para ver o grafo, outro terminal:
+	rqt_graph
+	
+Lançar nó listener em um terceiro terminal:
+	ros2 run ex1_talker listener
+
+
+recarregue o rqt_graph
+	
