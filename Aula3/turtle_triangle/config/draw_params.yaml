@@ -1,0 +1,7 @@
+turtle_triangle:
+  ros__parameters:
+    pub_period_ms: 5
+    angles_deg: [90.0, 143.1, 126.9]
+    side_lengths: [4.0, 5.0, 3.0]
+    speedup: 0.2
+    initial_velocity: 1.0
