@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="turtle_triangle" 
+          exec="turtle_triangle" 
+          name="turtle_triangle">
+          <param from="$(find-pkg-share turtle_triangle)/config/draw_params.yaml"/>
+    </node>
+</launch>
