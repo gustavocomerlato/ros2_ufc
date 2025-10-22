@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="turtlesim" 
+          exec="turtlesim_node" 
+          name="turtlesim_node">
+    </node>
+    
+    <include file="$(find-pkg-share turtle_triangle)/launch/draw_triangle.launch.xml"/>
+</launch>
